@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Το Portfolio μου</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page">
+        <nav class="dots" id="dots"></nav>
+        <div class="scroll" id="scroll">
+        <div class="topbar">
+            <div class="brand">Periklis Vai</div>
+            <div class="links">
+            <a href="#p1">EUDI Wallet</a>
+            <a href="#p2">Ratings Notebook</a>
+            <a href="#p3">Sky Legends</a>
+            </div>
+        </div>
+
+        <!-- Project 1 -->
+        <section class="project" id="p1" data-title="EUDI Wallet">
+            <div class="card">
+                <div class="header">
+                <div class="header-left">
+                    <h2>EUDI Wallet - Master thesis</h2>
+                    <p class="subtitle">Development of an Android application for digital wallets, compliant with the eIDAS regulation, using Java and Kotlin</p>
+                    <div>
+                        <span class="badge">Android</span>
+                        <span class="badge">Java</span>
+                        <span class="badge">Kotlin</span>
+                    </div>
+                </div>
+                <span class="meta">2025</span>
+                </div> <!-- /header -->
+
+                <div class="content">
+                <div class="media">
+                    <!-- Primary -->
+                    <div class="primary">
+                    <video class="media-obj fit-contain" controls poster="images/eudi_wallet/thumbnails/issue_pid.png">
+                        <source src="videos/eudi_wallet/Issue_PID_720p.mp4" type="video/mp4">
+                    </video>
+                    </div>
+
+                    <!-- Gallery thumbnails -->
+                    <div class="gallery">
+                      <img class="thumb thumb-contain" 
+                        src="images/eudi_wallet/thumbnails/issue_mdl_offer_uri.png" alt="Issue mDL with offer uri video"
+                        data-kind="video" data-src="videos/eudi_wallet/Issue_mDL_URI_Offer.mp4"
+                        data-poster="images/eudi_wallet/thumbnails/issue_mdl_offer_uri.png"
+                        data-fit="contain">
+
+                    <img class="thumb thumb-contain" src="images/eudi_wallet/thumbnails/delete_pid.png"
+                        data-kind="video" data-src="videos/eudi_wallet/Delete_PID_720p.mp4"
+                        data-poster="images/eudi_wallet/thumbnails/delete_pid.png" alt="delete credential video"
+                        data-fit="contain">
+
+                    <img class="thumb thumb-contain" src="images/eudi_wallet/thumbnails/credential_presentation.png"
+                        data-kind="video" data-src="videos/eudi_wallet/Presentation_720p.mp4"
+                        data-poster="images/eudi_wallet/thumbnails/credential_presentation.png" alt="credential presentation video"
+                        data-fit="contain">
+
+                    <img class="thumb thumb-contain" src="images/eudi_wallet/thumbnails/credential_presentation_fail.png"
+                        data-kind="video" data-src="videos/eudi_wallet/Wallet_LogIn_Demo_App.mp4"
+                        data-poster="images/eudi_wallet/thumbnails/credential_presentation_fail.png" alt="credential presentation fail video"
+                        data-fit="contain">
+                    </div>
+                </div> <!-- /media -->
+
+                <div class="desc">
+                    <p>This project was carried out as part of my Master's thesis in the 
+                        MSc program “Information Systems and Services” at the University of Piraeus. 
+                        Its focus was the design and implementation of a prototype European Digital Identity Wallet (EUDI Wallet) 
+                        for Android, aligned with the eIDAS 2.0 regulation.	</p>
+                    <p>The application was built on top of the official <a href="https://github.com/eu-digital-identity-wallet/eudi-lib-android-wallet-core">
+                        wallet-core library</a>
+                        which was customized to support issuance and presentation of 
+                        Verifiable Credentials using the OpenID4VCI and OpenID4VP standards.</p>
+                    <p>I also developed a companion authentication app that utilized the  <a href="https://github.com/eu-digital-identity-wallet/eudi-srv-web-verifier-endpoint-23220-4-kt">
+                        EUDI Web Verifier Endpoint library, deployed in a Docker container. </a> 
+                        This setup enabled end-to-end scenarios where a user could register or log in 
+                        by presenting credentials, either via QR code scanning or deep link flows.</p>
+                    <p>The thesis highlighted the lifecycle of Verifiable Credentials, challenges in remote presentation flows, 
+                        and the practical application of the EUDI Wallet architecture. The implemented use cases showcase 
+                        how trusted digital credentials can enhance security, interoperability, and privacy in online services.</p>
+                    <div class="actions">
+                        <a class="btn" href="https://dione.lib.unipi.gr/xmlui/handle/unipi/18091" target="_blank" rel="noopener noreferrer">View Thesis</a>
+                        <a class="btn" href="https://github.com/PeriklisVai/eudi-wallet-msc" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    </div>
+                </div> <!-- /desc -->
+                </div> <!-- /content -->
+
+            </div> <!-- /card -->
+        </section>
+
+        <!-- Project 2 -->
+        <section class="project" id="p2" data-title="Ratings Notebook">
+            <div class="card">
+                <div class="header">
+                <div class="header-left">
+                    <h2>Ratings Notebook - Android app</h2>
+                    <p class="subtitle">Create ratings and organize them by using your own custom categories and tags.</p>
+                    <div>
+                        <span class="badge">Unity</span>
+                        <span class="badge">C#</span>
+                        <span class="badge">Visual Studio</span>
+                        <span class="badge">Android</span>
+                        <span class="badge">Blender</span>
+                    </div>
+                </div>
+                <span class="meta">2022</span>
+                </div> <!-- /header -->
+
+                <div class="content">
+                <div class="media">
+                    <!-- Primary -->
+                    <div class="primary">
+                        <img class="media-obj fit-cover" src="images/ratings_notebook/tablet 10/Screenshot_mainPage.png" alt="Main page screenshot">
+                    </div>
+
+                    <!-- Gallery thumbnails -->
+                    <div class="gallery">
+                        <img class="thumb media-obj fit-cover" src="images/ratings_notebook/tablet 10/Screenshot_rating.png"
+                            data-kind="image" data-src="images/ratings_notebook/tablet 10/Screenshot_rating.png"
+                            alt="Rating app screenshot">
+
+                        <img class="thumb media-obj fit-cover" src="images/ratings_notebook/tablet 10/Screenshot_categories.png"
+                            data-kind="image" data-src="images/ratings_notebook/tablet 10/Screenshot_categories.png"
+                            alt="Categories app screenshot">
+
+                        <img class="thumb media-obj fit-cover" src="images/ratings_notebook/tablet 10/Screenshot_tags.png"
+                            data-kind="image" data-src="images/ratings_notebook/tablet 10/Screenshot_tags.png"
+                            alt="Categories app screenshot">
+                    </div>
+                </div> <!-- /media -->
+
+                <div class="desc">
+                    <p>Ratings Notebook is an Android application published on the Google Play Store that allows users to create and manage personal ratings. 
+                        Whether it’s movies, books, restaurants, or any custom category, 
+                        users can quickly add entries, assign scores, and keep their evaluations organized in one place.</p>
+                    <p>The app provides a clean and intuitive interface with support for search, custom tags and categories and search filtering making it easy to revisit past ratings</p>
+                    <p>Developed entirely in Java with a local SQLite database for offline persistence.</p>
+                    <p>I developed the application as a fun project in my free time</p>
+                    <div class="actions">
+                        <a class="btn" href="https://play.google.com/store/apps/details?id=com.vai.ratingsnotebook" target="_blank" rel="noopener noreferrer">Play Store</a>
+                    </div>
+                </div> <!-- /desc -->
+                </div> <!-- /content -->
+
+            </div> <!-- /card -->
+        </section>
+
+        <!-- Project 3 -->
+        <section class="project" id="p3" data-title="Sky Legends">
+            <div class="card">
+                <div class="header">
+                <div class="header-left">
+                    <h2>Sky Legends - 3D Video game</h2>
+                    <p class="subtitle">Dissertation on Developing a 3D video-game for android platforms using Unity Game Engine</p>
+                    <div>
+                        <span class="badge">Unity</span>
+                        <span class="badge">C#</span>
+                        <span class="badge">Visual Studio</span>
+                        <span class="badge">Android</span>
+                        <span class="badge">Blender</span>
+                    </div>
+                </div>
+                <span class="meta">2020</span>
+                </div> <!-- /header -->
+
+                <div class="content">
+                <div class="media">
+                    <!-- Primary -->
+                    <div class="primary">
+                    <video controls poster="images/sky_legends/MainMenu.png">
+                        <source src="videos/sky_legends/Tut_Slide1_720.mp4" type="video/mp4">
+                        Ο περιηγητής σας δεν υποστηρίζει το video tag.
+                    </video>
+                    </div>
+
+                    <!-- Gallery με thumbnails -->
+                    <div class="gallery">
+                        <img class="thumb" src="images/sky_legends/GameIcon.png"
+                            data-kind="video" data-src="videos/sky_legends/Tut_Slide3_720.mp4"
+                            data-poster="images/sky_legends/GameIcon.png" alt="gameplay win video">
+
+                        <img class="thumb" src="images/sky_legends/game2.png"
+                            data-kind="video" data-src="videos/sky_legends/Tut_Slide4_720.mp4"
+                            data-poster="images/sky_legends/game2.png" alt="gameplay game over by enemy fire video">
+
+                        <img class="thumb" src="images/sky_legends/game.png"
+                            data-kind="video" data-src="videos/sky_legends/Tut_Slide5_720.mp4"
+                            data-poster="images/sky_legends/game.png" alt="gameplay game over crash">
+                    </div>
+                </div> <!-- /media -->
+
+                <div class="desc">
+                    <p>Sky Legends is a 3D aerial combat game developed as part of my dissertation project at the University of Piraeus. 
+                        Built with Unity and Blender, the game delivers an immersive dogfighting experience on mobile devices.</p>
+                    <p>The gameplay combines both single-player and multiplayer modes. In single-player, the opponent is powered by AI with behaviors such as patrolling, 
+                        attacking, and evading. In multiplayer, 
+                        players can engage in real-time dogfights over a local network, testing their skills against friends in intense aerial battles.</p>
+                    <p>My work covered the full pipeline: 3D modeling and animation in Blender, 
+                        scripting core mechanics in C#, designing UI and effects, and optimizing performance for mobile deployment.</p>
+                    <div class="actions">
+                        <a class="btn" href="https://play.google.com/store/apps/details?id=com.PeriklisVai.SkyLegends" target="_blank" rel="noopener noreferrer">Play Store</a>
+                        
+                    </div>
+                </div> <!-- /desc -->
+                </div> <!-- /content -->
+
+            </div> <!-- /card -->
+        </section>
+
+      <footer>
+        © <span id="year"></span> Periklis Vairaktaridis — <a href="mailto:p.vairaktaridis@gmail.com">p.vairaktaridis@gmail.com</a>
+      </footer>
+    </div>
+  </div>
+
+  <!-- Simple overlay for enlarged media -->
+  <div id="overlay" class="overlay">
+    <span id="overlay-close" class="overlay-close">&times;</span>
+    <span id="overlay-prev" class="overlay-arrow">&#10094;</span>
+    <span id="overlay-next" class="overlay-arrow">&#10095;</span>
+    <div class="overlay-content" id="overlay-content"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
