@@ -291,6 +291,13 @@ p {
   transform: translateY(1px)
 }
 
+.btn:disabled {
+  background: #39425b;
+  color: #aeb7c9;
+  cursor: not-allowed;
+  transform: none;
+}
+
 .brand {
   font-size: 20px;
   letter-spacing: .5px
