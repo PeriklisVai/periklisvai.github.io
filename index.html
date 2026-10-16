@@ -13,11 +13,67 @@
         <div class="topbar">
             <div class="brand">Periklis Vai</div>
             <div class="links">
+            <a href="#pokemon-explorer">Pokémon Explorer</a>
             <a href="#p1">EUDI Wallet</a>
             <a href="#p2">Ratings Notebook</a>
             <a href="#p3">Sky Legends</a>
             </div>
         </div>
+
+        <!-- Pokémon Explorer -->
+        <section class="project" id="pokemon-explorer" data-title="Pokémon Explorer">
+            <div class="card">
+                <div class="header">
+                    <div class="header-left">
+                        <h2>Pokémon Explorer - Android app</h2>
+                        <p class="subtitle">Explore Pokémon by type, search by name, and discover their stats.</p>
+                        <div class="tech-stack">
+                            <span class="badge">Android</span>
+                            <span class="badge">Kotlin</span>
+                            <span class="badge">Jetpack Compose</span>
+                            <span class="badge">MVVM</span>
+                            <span class="badge">Retrofit</span>
+                        </div>
+                    </div>
+                    <span class="meta">2026</span>
+                </div>
+
+                <div class="content">
+                    <div class="media">
+                        <div class="primary">
+                            <img class="media-obj fit-contain" src="images/pokemon_explorer/pokemon_explorer_demo.gif"
+                                alt="Pokémon Explorer demo showing type selection, search, and Pokémon details">
+                        </div>
+                        <div class="gallery">
+                            <img class="thumb thumb-contain" src="images/pokemon_explorer/pokemon_explorer_home.jpg"
+                                data-kind="image" data-fit="contain" alt="Home screen with ten Pokémon types" loading="lazy">
+                            <img class="thumb thumb-contain" src="images/pokemon_explorer/pokemon_explorer_results_grass.jpg"
+                                data-kind="image" data-fit="contain" alt="Grass-type Pokémon results and name search" loading="lazy">
+                            <img class="thumb thumb-contain" src="images/pokemon_explorer/pokemon_explorer_details_gengar.jpg"
+                                data-kind="image" data-fit="contain" alt="Gengar details with types, HP, Attack, and Defense" loading="lazy">
+                            <img class="thumb thumb-contain" src="images/pokemon_explorer/pokemon_explorer_network_error.jpg"
+                                data-kind="image" data-fit="contain" alt="Network error message with a retry action" loading="lazy">
+                            <img class="thumb thumb-contain" src="images/pokemon_explorer/pokemon_explorer_landscape.jpg"
+                                data-kind="image" data-fit="contain" alt="Pokémon details adapted to landscape orientation" loading="lazy">
+                        </div>
+                    </div>
+
+                    <div class="desc">
+                        <p>Pokémon Explorer is a native Android application developed as part of a mobile development assignment.
+                            Built with Kotlin, Jetpack Compose, and Material 3, it uses the PokéAPI to turn Pokémon discovery into a simple browsing experience.</p>
+                        <p>Users can choose from ten Pokémon types, filter the selected type's results by name, and load more Pokémon in batches of ten.
+                            Each details screen shows the Pokémon's sprite, primary and secondary types, HP, Attack, and Defense.</p>
+                        <p>The app follows an MVVM-style architecture with ViewModels and a repository separating the UI from the data layer.
+                            Retrofit and Kotlin Coroutines handle API requests, while Coil loads Pokémon sprites.</p>
+                        <p>Portrait and landscape layouts keep the interface usable across orientations.
+                            Network failures, timeouts, and API errors have clear messages and retry actions, with failed result images retried when connectivity returns.</p>
+                        <div class="actions">
+                            <a class="btn" href="https://github.com/PeriklisVai/pokemon-explorer" target="_blank" rel="noopener noreferrer">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <!-- Project 1 -->
         <section class="project" id="p1" data-title="EUDI Wallet">

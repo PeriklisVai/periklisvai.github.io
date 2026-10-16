@@ -232,6 +232,30 @@ h2 {
 }
 
 /* Description */
+#pokemon-explorer .tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+#pokemon-explorer .tech-stack .badge {
+  margin-right: 0;
+}
+
+#pokemon-explorer .media {
+  align-content: start;
+}
+
+#pokemon-explorer .primary {
+  aspect-ratio: auto;
+  height: 360px;
+}
+
+#pokemon-explorer .gallery .thumb {
+  object-fit: contain;
+  background: var(--bg);
+}
+
 .desc {
   display: block;
 }
@@ -412,6 +436,29 @@ a:hover {
 }
 
 /* Footer */
+@media (max-width: 700px) {
+  .topbar {
+    height: auto;
+    min-height: 56px;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 10px 16px;
+  }
+
+  .links {
+    flex-wrap: wrap;
+    gap: 6px 14px;
+  }
+
+  section.project {
+    padding: 140px 4vw 32px;
+  }
+
+  .card {
+    padding: 18px;
+  }
+}
+
 footer {
   padding: 24px 7vw;
   color: #97a3bf
